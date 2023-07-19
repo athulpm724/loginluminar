@@ -100,18 +100,33 @@ img{
     .head-box{
         justify-content: center;
     }
- 
+    
+    .container{
+        border: none;
+        box-shadow: none;
+
+    }
 }
 
 @media screen and (max-width:415px){
     .img{
         transform: scale(0.4);
     }
+    
+    .container{
+        border: none;
+        box-shadow: none;
+
+    }
 }
 
 @media screen and (max-width:355px){
     img{
-        transform: scale(0.4);
+        transform: scale(0.6);
     }
     
+    .container{
+        border: none;
+        box-shadow: none;
+    }
 }
